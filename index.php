@@ -39,10 +39,17 @@
         <input type="submit" class="btn" value="Sign Up" name="signUp">
     </form>
 
-    <div class="links">
-        <p>Already have an account?</p>
-        <button id="signInButton">Sign In</button>
-    </div>
+    <p class="or">
+        --------or--------
+        </p>
+            <div class="icons">
+                <i class="fab fa-google"></i>
+                <i class="fab fa-facebook"></i>
+            </div>
+        <div class="links">
+            <p>Already Have Account ?</p>
+            <button id="signInButton">Sign In</button>
+        </div>
 </div>
 
 <div class="container" id="signIn" style="display:none;">
@@ -63,11 +70,18 @@
         <input type="submit" class="btn" value="Sign In" name="signIn">
     </form>
 
-    <div class="links">
-        <p>Don't have an account?</p>
-        <button id="signUpButton">Sign Up</button>
+         <p class="or">
+        --------or--------
+        </p>
+            <div class="icons">
+                <i class="fab fa-google"></i>
+                <i class="fab fa-facebook"></i>
+            </div>
+        <div class="links">
+            <p>Don't have an account?</p>
+            <button id="signUpButton">Sign Up</button>
+        </div>
     </div>
-</div>
 
 <script src="scripts.js"></script>
 </body>
